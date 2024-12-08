@@ -1,0 +1,48 @@
+.bgc-thm .container .row {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 50px;
+
+}
+
+
+.bgc-thm {
+    background-color: #a5038f !important;
+}
+
+.text-left h4{
+    font-family: nunito, sans-serif;
+    font-size: 26px;
+    color: #fff;
+}
+
+.text-left p{
+    font-family: nunito, sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.text-right{
+    position: relative;
+    width: 250px;
+    margin: auto;
+}
+
+.text-right-btn{
+    position: relative;
+    width: 100%;
+    padding: 25px 35px; /* Adjust padding to your preference */
+    background-color: rgb(187, 30, 187);
+    color: white;
+    font-family: nunito, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 10px; /* Optional for rounded corners */
+    cursor: pointer;
+  }
+  
+  .text-right-btn:hover {
+    background-color: grey; /* Slightly darker shade on hover */
+  }
+  
